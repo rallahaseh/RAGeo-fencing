@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RAGeo-fencing_Example' do
+  pod 'RAGeo-fencing', :path => '../'
+
+  target 'RAGeo-fencing_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
