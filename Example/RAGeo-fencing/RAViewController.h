@@ -8,6 +8,16 @@
 
 @import UIKit;
 
-@interface RAViewController : UIViewController
+#import "RALocation.h"
+
+@interface RAViewController : UIViewController{
+    RALocation *deviceLocation;
+    CLLocationCoordinate2D locationCoordinate;
+    MKPolyline *routeLine;
+    MKPolylineView *routeLineView;
+    MKPointAnnotation *point;
+}
+
+@property (strong, nonatomic) IBOutlet MKMapView *mapKit;
 
 @end
