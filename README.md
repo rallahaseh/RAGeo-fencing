@@ -5,11 +5,11 @@
 [![License](https://img.shields.io/cocoapods/l/RAGeo-fencing.svg?style=flat)](http://cocoapods.org/pods/RAGeo-fencing)
 [![Platform](https://img.shields.io/cocoapods/p/RAGeo-fencing.svg?style=flat)](http://cocoapods.org/pods/RAGeo-fencing)
 
+RAGeo-fencing is an in/out tracking app with notifications for iOS 7+ that uses Geo-fencing.
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
 
 ## Installation
 
@@ -22,8 +22,11 @@ pod "RAGeo-fencing"
 
 ## Author
 
-rashed, rashed.al-lahaseh@apprikot.com
+Rashed Al-Lahaseh, rallahaseh@gmail.com
 
 ## License
 
 RAGeo-fencing is available under the MIT license. See the LICENSE file for more info.
+
+## Sample Screenshot
+![alt tag](http://oi67.tinypic.com/dphcnp.jpg)
